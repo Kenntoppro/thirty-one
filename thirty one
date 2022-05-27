@@ -1,0 +1,9 @@
+tir = int(input('возраст: '))
+if tir >= 0 and tir <= 13:
+ print('детство')
+elif tir >= 14 and tir <= 24:
+ print('молодость')
+elif tir >= 25 and tir <= 59:
+ print('зрелость')
+elif tir >= 60:
+ print('старость')
